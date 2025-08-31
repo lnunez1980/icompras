@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <title>iCompras - Tu Asistente Inteligente de Compras y Restaurantes</title>
+    <meta name="description" content="iCompras es el chatbot inteligente que te ayuda a encontrar productos, comparar precios y elegir opciones en restaurantes. Tu asistente personal para mejores decisiones de compra.">
+    <meta name="keywords" content="chatbot compras, asistente inteligente, comparar precios, restaurantes, tiendas online, AI shopping, colombia">
+    <meta name="author" content="Luis Rafael Nuñez Barrientos">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="iCompras - Tu Asistente Inteligente de Compras">
+    <meta property="og:description" content="Encuentra productos, compara precios y descubre opciones en restaurantes con nuestro chatbot inteligente">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://icompras.app">
+    <meta property="og:image" content="assets/img/logo-icompras.png">
+    <meta property="og:locale" content="es_ES">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="iCompras - Asistente Inteligente de Compras">
+    <meta name="twitter:description" content="Tu chatbot personal para mejores decisiones de compra">
+    <meta name="twitter:image" content="assets/img/logo-icompras.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/img/logo-icompras.png">
+    <link rel="apple-touch-icon" href="assets/img/logo-icompras.png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Plus+Jakarta+Sans:wght@600&family=Inter:wght@800&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- JSON-LD Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "iCompras",
+        "description": "Chatbot inteligente para asistencia en compras y restaurantes",
+        "url": "https://icompras.app",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Android, iOS, Web",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        },
+        "author": {
+            "@type": "Person",
+            "name": "Luis Rafael Nuñez Barrientos"
+        }
+    }
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="navbar">
+            <img src="assets/img/logo-icompras.png" alt="iCompras Logo" class="logo">
+            <nav>
+                <a href="#home" class="nav-active">Home</a>
+                <a href="#services">Servicios</a>
+                <a href="#features">Características</a>
+                <a href="#contact">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Tu Asistente Inteligente para Compras y Restaurantes</h1>
+                    <p class="hero-description">
+                        iCompras es el chatbot que revoluciona tu experiencia de compra. Encuentra productos,
+                        compara precios, descubre opciones en restaurantes y toma mejores decisiones con
+                        inteligencia artificial personalizada.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">Comenzar Ahora</a>
+                        <a href="#services" class="btn btn-secondary">Ver Servicios</a>
+                    </div>
+                </div>
+                <div class="hero-logo">
+                    <img src="assets/img/logo-icompras.png" alt="iCompras Logo" class="hero-logo-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services">
+            <div class="container">
+                <h2 class="section-title services-title">¿Qué puede hacer iCompras por ti?</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.5 15H12.5L16.5 37.5H45L50 15H20" stroke="#FF8660" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                <circle cx="20" cy="47.5" r="2.5" stroke="#FF8660" stroke-width="3"/>
+                                <circle cx="40" cy="47.5" r="2.5" stroke="#FF8660" stroke-width="3"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Búsqueda Inteligente</h3>
+                        <p class="service-description">
+                            Encuentra exactamente lo que buscas con nuestro sistema de IA. Solo describe lo que necesitas
+                            y te mostramos las mejores opciones disponibles.
+                        </p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M30 5V15M30 45V55M15 30H5M55 30H45M45.36 45.36L38.64 38.64M21.36 21.36L14.64 14.64M45.36 14.64L38.64 21.36M21.36 38.64L14.64 45.36" stroke="#9A33FF" stroke-width="3" stroke-linecap="round"/>
+                                <circle cx="30" cy="30" r="5" stroke="#9A33FF" stroke-width="3"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Comparación de Precios</h3>
+                        <p class="service-description">
+                            Compara precios de múltiples tiendas al instante. Nunca más pagues de más,
+                            siempre encuentra las mejores ofertas disponibles.
+                        </p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M30 2.5C38.75 2.5 47.5 7.5 47.5 15C47.5 22.5 40 30 30 40C20 30 12.5 22.5 12.5 15C12.5 7.5 21.25 2.5 30 2.5Z" stroke="#FF8660" stroke-width="3"/>
+                                <path d="M30 20C32.7614 20 35 17.7614 35 15C35 12.2386 32.7614 10 30 10C27.2386 10 25 12.2386 25 15C25 17.7614 27.2386 20 30 20Z" stroke="#FF8660" stroke-width="3"/>
+                                <path d="M15 45H45L40 57.5H20L15 45Z" stroke="#9A33FF" stroke-width="3" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Asistencia en Restaurantes</h3>
+                        <p class="service-description">
+                            Descubre platos perfectos para ti. Conoce ingredientes, restricciones dietéticas
+                            y encuentra opciones que se adapten a tus gustos y necesidades.
+                        </p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M30 5L37 19H52L40 29L45 45L30 37L15 45L20 29L8 19H23L30 5Z" stroke="#9A33FF" stroke-width="3" stroke-linejoin="round" fill="none"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Recomendaciones Personalizadas</h3>
+                        <p class="service-description">
+                            Recibe sugerencias basadas en tus preferencias, historial y tendencias.
+                            Mientras más uses iCompras, mejor te conocerá.
+                        </p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 45V15C5 12.2386 7.23858 10 10 10H50C52.7614 10 55 12.2386 55 15V45C55 47.7614 52.7614 50 50 50H10C7.23858 50 5 47.7614 5 45Z" stroke="#FF8660" stroke-width="3" fill="none"/>
+                                <path d="M25 25L30 30L45 15" stroke="#FF8660" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Alertas Inteligentes</h3>
+                        <p class="service-description">
+                            Recibe notificaciones sobre ofertas, descuentos y disponibilidad de productos
+                            que te interesan. No te pierdas ninguna oportunidad.
+                        </p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M45 10V50L30 40L15 50V10C15 7.23858 17.2386 5 20 5H40C42.7614 5 45 7.23858 45 10Z" stroke="#9A33FF" stroke-width="3" fill="none"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Listas Personales</h3>
+                        <p class="service-description">
+                            Crea listas de deseos, guarda productos favoritos y compara opciones.
+                            Organiza tus compras de manera inteligente.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="features">
+            <div class="container">
+                <h2 class="section-title">¿Por qué elegir iCompras?</h2>
+
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <h3 class="feature-title">🤖 Inteligencia Artificial Avanzada</h3>
+                        <p class="feature-description">
+                            Nuestro chatbot utiliza tecnología de vanguardia para entender tus necesidades
+                            y proporcionarte respuestas precisas y útiles.
+                        </p>
+                    </div>
+
+                    <div class="feature-card">
+                        <h3 class="feature-title">🛍️ Integración Multi-tienda</h3>
+                        <p class="feature-description">
+                            Conectamos con cientos de tiendas online y físicas para darte la vista más
+                            completa del mercado en tiempo real.
+                        </p>
+                    </div>
+
+                    <div class="feature-card">
+                        <h3 class="feature-title">🍽️ Experto en Gastronomía</h3>
+                        <p class="feature-description">
+                            Conoce ingredientes, restricciones dietéticas y encuentra platos perfectos
+                            en restaurantes según tus preferencias alimentarias.
+                        </p>
+                    </div>
+
+                    <div class="feature-card">
+                        <h3 class="feature-title">📍 Localización Inteligente</h3>
+                        <p class="feature-description">
+                            Encuentra tiendas y restaurantes cercanos, conoce horarios, disponibilidad
+                            y opciones de entrega en tu área.
+                        </p>
+                    </div>
+
+                    <div class="feature-card">
+                        <h3 class="feature-title">💰 Ahorro Garantizado</h3>
+                        <p class="feature-description">
+                            Nuestra comparación de precios y alertas de ofertas te ayudan a ahorrar
+                            dinero en cada compra que realizas.
+                        </p>
+                    </div>
+
+                    <div class="feature-card">
+                        <h3 class="feature-title">🔒 Privacidad Protegida</h3>
+                        <p class="feature-description">
+                            Tus datos están seguros. Cumplimos con las más estrictas normas de
+                            privacidad y protección de datos personales.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">¿Listo para comenzar?</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Únete a la revolución de las compras inteligentes</h3>
+                        <p>
+                            iCompras está diseñado para hacer tu vida más fácil. Ya sea que busques el mejor
+                            precio para un producto específico o quieras descubrir opciones deliciosas en
+                            restaurantes, nuestro asistente inteligente está aquí para ayudarte.
+                        </p>
+
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <strong>📧 Soporte:</strong> lnunezb6@gmail.com
+                            </div>
+                            <div class="contact-item">
+                                <strong>🔒 Privacidad:</strong> lnunezb6@gmail.com
+                            </div>
+                            <div class="contact-item">
+                                <strong>📍 Ubicación:</strong> Bogotá, Colombia
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form">
+                        <h4>Mantente informado</h4>
+                        <p>Sé el primero en conocer sobre nuevas funciones y lanzamientos</p>
+                        <form class="newsletter-form">
+                            <label>
+                                <input type="email" placeholder="Tu email" required>
+                            </label>
+                            <button type="submit" class="btn btn-primary">Suscribirse</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="app-features">
+                    <h3>Características principales</h3>
+                    <div class="features-list">
+                        <div class="feature-item">
+                            <span class="feature-emoji">🎯</span>
+                            <div>
+                                <strong>Búsquedas Precisas:</strong> Encuentra exactamente lo que necesitas con lenguaje natural
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-emoji">⚡</span>
+                            <div>
+                                <strong>Respuestas Instantáneas:</strong> Obtén información en tiempo real sin esperas
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-emoji">🔔</span>
+                            <div>
+                                <strong>Alertas Personalizadas:</strong> Recibe notificaciones sobre ofertas y productos de tu interés
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-emoji">📱</span>
+                            <div>
+                                <strong>Multiplataforma:</strong> Disponible en web, móvil y como asistente conversacional
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <h3>iCompras</h3>
+                    <p>Tu asistente inteligente para compras y restaurantes. Encuentra, compara y decide mejor con inteligencia artificial.</p>
+                    <p class="footer__tagline">Hecho con ❤️ en Bogotá, Colombia</p>
+                </div>
+                <div class="footer__section">
+                    <h4>Navegación</h4>
+                    <a href="#home">Inicio</a>
+                    <a href="#services">Servicios</a>
+                    <a href="#features">Características</a>
+                    <a href="#contact">Contacto</a>
+                </div>
+                <div class="footer__section">
+                    <h4>Legal</h4>
+                    <a href="terms_and_conditions.html">Términos y Condiciones</a>
+                    <a href="delete_account.html">Eliminar Cuenta</a>
+                    <a href="mailto:lnunezb6@gmail.com">Política de Privacidad</a>
+                </div>
+                <div class="footer__section">
+                    <h4>Soporte</h4>
+                    <p>📧 lnunezb6@gmail.com</p>
+                    <p>🔒 lnunezb6@gmail.com</p>
+                    <p>💬 Chat en vivo (próximamente)</p>
+                    <p>🕒 L-V: 9:00 AM - 6:00 PM (COT)</p>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2025 iCompras. Todos los derechos reservados. | Desarrollado por Luis Rafael Nuñez Barrientos</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript para navegación suave y interacciones -->
+    <script>
+        // Navegación suave
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Destacar sección activa en la navegación
+        window.addEventListener('scroll', function() {
+            const sections = document.querySelectorAll('section[id]');
+            const navLinks = document.querySelectorAll('.navbar nav a[href^="#"]');
+
+            let currentSection = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 100;
+                if (window.scrollY >= sectionTop) {
+                    currentSection = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('nav-active');
+                if (link.getAttribute('href') === `#${currentSection}`) {
+                    link.classList.add('nav-active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
